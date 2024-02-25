@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./image-gallery.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+
+
+<div class="main-image">
+    <div class="main-small-image">
+        <img src="./images/1.jpg" class="images" alt="image" onclick="imageLoad(this)" />
+        <img src="./images/2.jpg" class="images" alt="image" onclick="imageLoad(this)" />
+        <img src="./images/3.jpg" class="images" alt="image" onclick="imageLoad(this)" />
+        <img src="./images/4.jpg" class="images" alt="image" onclick="imageLoad(this)" />
+        <img src="./images/5.jpg" class="images" alt="image" onclick="imageLoad(this)" />
+    </div>
+    <div class="image-container">
+        <img id="imageBox" src="./images/1.jpg" alt="highlighted image" />
+        <h1 id="image_name_change"></h1>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="./image-gallery.js"></script>
+</body>
+</html>
